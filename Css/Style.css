@@ -109,7 +109,7 @@ label {
     flex-direction: row;
 }
 
-.profile-radio-content > label {
+.profile-radio-content>label {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -169,6 +169,7 @@ select {
     .cancelButton {
         margin-left: 0px;
     }
+
     .form {
         width: 85%;
         padding: 44px 20px;
@@ -179,15 +180,19 @@ select {
     .form {
         margin-top: 10px;
     }
+
     .row {
         flex-direction: column;
     }
+
     .uploadButton {
         justify-content: flex-start;
     }
+
     .profile-radio-button {
         flex-flow: wrap;
     }
+
     .submit-reset {
         width: 100%;
         display: flex;
@@ -196,11 +201,20 @@ select {
         justify-content: space-between;
         margin-bottom: 20px;
     }
+
     .submitButton {
         margin: 0;
     }
+
     .buttonParent {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
+}
+
+error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
 }
